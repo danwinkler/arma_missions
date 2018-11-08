@@ -152,15 +152,6 @@ if (count repsawn_pos == 0) then {
 // Set respawn position
 createMarker ["respawn_west", repsawn_pos];
 
-// Teleport players
-_allPlayers = call BIS_fnc_listPlayers;
-{
-	_x setPos repsawn_pos;
-
-	// Give unit a backpack
-	_x addBackpack "B_AssaultPack_khk";
-} forEach _allPlayers;
-
 max_groups = 10;
 spawned_groups = 0;
 
