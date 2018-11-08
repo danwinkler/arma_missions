@@ -1,0 +1,18 @@
+disabledAI = 1;
+
+class CfgDebriefing
+{  
+class End1
+{
+	title = "Mission Accomplished!";
+	subtitle = "You managed to fight off the enemy";
+	description = "";
+};
+
+class lose
+{
+	title = "Mission Failed!";
+	subtitle = "The enemy overran your base.";
+	description = "";
+};
+};
